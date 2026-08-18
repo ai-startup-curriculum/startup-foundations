@@ -38,23 +38,28 @@ A role is a *learning path*, not a separate body of knowledge. A CEO isn't one
 subject; it's a role sitting on top of several systems. Each role repo declares
 target coverage across the functional pillars:
 
-| Pillar | CEO | CTO |
-|---|----|----|
-| Foundations | 100% | 100% |
-| Strategy | 100% | — |
-| Product | 60% | 70% |
-| GTM / Sales / Marketing | 60% | 30% |
-| Finance | 80% | 30% |
-| Fundraising | 80% | — |
-| People | 80% | 70% |
-| Legal | 50% | — |
-| Governance | 80% | 30% |
-| Technical Leadership | 20% | 100% |
+| Pillar | CEO | CTO | CPO |
+|---|----|----|----|
+| Foundations | 100% | 100% | 100% |
+| Strategy | 100% | 40% | 60% |
+| Product | 60% | 70% | 100% |
+| GTM / Sales / Marketing | 60% | 30% | 80% |
+| Finance | 80% | 30% | 30% |
+| Fundraising | 80% | 20% | 20% |
+| People | 80% | 70% | 50% |
+| Legal | 50% | 20% | 20% |
+| Governance | 80% | 30% | 20% |
+| Technical Leadership | 20% | 100% | 40% |
+| Exit & Endgame | 60% | 40% | 30% |
 
-Role repos: **[founder-ceo](https://github.com/ai-startup-curriculum/founder-ceo-curriculum)**
-· **[product & GTM](https://github.com/ai-startup-curriculum/startup-product-gtm-curriculum)**
-· **[finance & fundraising](https://github.com/ai-startup-curriculum/startup-finance-fundraising-curriculum)**
-· **[operations & governance](https://github.com/ai-startup-curriculum/startup-operations-governance-curriculum)**.
+**Role pathways:** [founder-ceo](https://github.com/ai-startup-curriculum/founder-ceo-curriculum)
+· [cto](https://github.com/ai-startup-curriculum/cto-curriculum)
+· [cpo](https://github.com/ai-startup-curriculum/cpo-curriculum).
+
+**Functional / topic curricula:** [product & GTM](https://github.com/ai-startup-curriculum/startup-product-gtm-curriculum)
+· [finance & fundraising](https://github.com/ai-startup-curriculum/startup-finance-fundraising-curriculum)
+· [operations & governance](https://github.com/ai-startup-curriculum/startup-operations-governance-curriculum)
+· [exit & endgame](https://github.com/ai-startup-curriculum/startup-exit-curriculum).
 
 ### 3. Startup stages — *when* things matter
 

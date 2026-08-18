@@ -18,11 +18,11 @@ STARTUP FOUNDATIONS  (this repo — the shared root)
         │    Product-Market Fit
         │         │
         │         ▼
-        │    GTM Strategy ──► Sales ──► Growth
+        │    GTM Strategy ──► Sales ──► Growth ──► Exit / Endgame
         │
         ├──► Corporate Structure
         │         ├──► Equity
-        │         ├──► Governance
+        │         ├──► Governance ──► Exit / Endgame
         │         └──► Fundraising
         │
         └──► Startup Economics
@@ -32,13 +32,17 @@ STARTUP FOUNDATIONS  (this repo — the shared root)
                   └──► Capital Allocation
 ```
 
+*Exit / Endgame* (M&A, secondaries, IPO, succession, shutdown) sits at the far
+end of the graph — it draws on Growth, Governance, Finance, and Equity, and only
+becomes actionable at the later stages.
+
 ## The pillars and where they live
 
 | Pillar | What it covers | Owning repo |
 |---|---|---|
 | **Foundations** | How a startup works as a system; the graph itself | `startup-foundations` (this repo) |
 | **Strategy** | Vision, positioning, capital/attention/people allocation | `founder-ceo-curriculum` |
-| **Product** | Discovery, PMF, prioritization, product management | `startup-product-gtm-curriculum` |
+| **Product** | Discovery, PMF, prioritization, product management | `cpo-curriculum` |
 | **GTM / Sales / Marketing** | Positioning, demand gen, founder-led sales, growth | `startup-product-gtm-curriculum` |
 | **Finance** | Financial modeling, runway, unit economics, capital allocation | `startup-finance-fundraising-curriculum` |
 | **Fundraising** | Angels → pre-seed → seed → Series A; mechanics & strategy | `startup-finance-fundraising-curriculum` |
@@ -47,32 +51,42 @@ STARTUP FOUNDATIONS  (this repo — the shared root)
 | **Legal** | Incorporation, contracts, IP, employment basics | `startup-operations-governance-curriculum` |
 | **Operations** | Corporate ops, vendors, processes, metrics, systems | `startup-operations-governance-curriculum` |
 | **Governance** | Boards, fiduciary duty, controls, risk, accountability | `startup-operations-governance-curriculum` |
-| **Technical Leadership** | Turning technology into a scalable company capability | `founder-ceo-curriculum` (CTO pathway) |
+| **Technical Leadership** | Turning technology into a scalable company capability | `cto-curriculum` |
+| **Exit & Endgame** | M&A, secondaries, IPOs, succession, shutdowns | `startup-exit-curriculum` |
 
 > **Reuse over duplication.** A module lives in exactly one owning repo. Role
 > pathways *reference* it (with a target coverage %) rather than re-authoring it.
 > As a pillar's material outgrows a bundle repo, it graduates into its own repo
 > and the references update — never a copy-paste fork.
 
+## Repos: functional curricula vs. role pathways
+
+The org has two kinds of repo, both built on this graph:
+
+- **Functional / topic curricula** (the bodies of knowledge above):
+  `startup-foundations`, `startup-product-gtm-curriculum`,
+  `startup-finance-fundraising-curriculum`,
+  `startup-operations-governance-curriculum`, `startup-exit-curriculum`.
+- **Role pathways** (curated views declaring target coverage, no duplicated
+  content): `founder-ceo-curriculum`, `cto-curriculum`, `cpo-curriculum`.
+
 ## Role pathways over the pillars
 
-Each role repo's `CURRICULUM.md` declares target coverage. Starter pathways:
+Each role pathway's `CURRICULUM.md` declares target coverage across the pillars:
 
-| Pillar | Founder/CEO | CTO* | Product & GTM | Finance & Fundraising | Ops & Governance |
-|---|----|----|----|----|----|
-| Foundations | 100% | 100% | 100% | 100% | 100% |
-| Strategy | 100% | 40% | 60% | 40% | 40% |
-| Product | 60% | 70% | 100% | 20% | 20% |
-| GTM / Sales / Marketing | 60% | 30% | 100% | 20% | 30% |
-| Finance | 80% | 30% | 30% | 100% | 50% |
-| Fundraising / Equity | 80% | 20% | 20% | 100% | 40% |
-| People | 80% | 70% | 40% | 30% | 80% |
-| Legal | 50% | 20% | 20% | 40% | 100% |
-| Governance | 80% | 30% | 20% | 40% | 100% |
-| Technical Leadership | 20% | 100% | 30% | 10% | 20% |
-
-\* The CTO pathway is authored inside `founder-ceo-curriculum` until it outgrows
-it and graduates to its own `cto-curriculum` repo.
+| Pillar | Founder/CEO | CTO | CPO |
+|---|----|----|----|
+| Foundations | 100% | 100% | 100% |
+| Strategy | 100% | 40% | 60% |
+| Product | 60% | 70% | 100% |
+| GTM / Sales / Marketing | 60% | 30% | 80% |
+| Finance | 80% | 30% | 30% |
+| Fundraising / Equity | 80% | 20% | 20% |
+| People | 80% | 70% | 50% |
+| Legal | 50% | 20% | 20% |
+| Governance | 80% | 30% | 20% |
+| Technical Leadership | 20% | 100% | 40% |
+| Exit & Endgame | 60% | 40% | 30% |
 
 ---
 
