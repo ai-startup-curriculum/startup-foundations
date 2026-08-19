@@ -75,6 +75,24 @@ and option pools, 18-month runway models, investor funnels, board packets,
 cost→pricing/margin conversions, customer-concentration crisis plans. Worked
 exemplars live in each role repo under `exemplars/`.
 
+## The Foundations Track Itself
+
+Beyond the taxonomy docs, this repo also *is* a track — the shared root every
+pathway inherits at 100%. The 5-module plan (**~183 hours across 5 modules + 3
+projects**) is authored in [`CURRICULUM.md`](CURRICULUM.md), the requirements
+catalog in [`JOB_REQUIREMENTS.md`](JOB_REQUIREMENTS.md), and prerequisites in
+[`PREREQUISITES.md`](PREREQUISITES.md). Machine-readable manifests live under
+[`.aicg/`](.aicg/) — [`curriculum-plan.json`](./.aicg/curriculum-plan.json) and
+[`job-requirements.json`](./.aicg/job-requirements.json).
+
+| Module | Stage | Pillar |
+|---|---|---|
+| [`mod-001-how-startups-work`](lessons/mod-001-how-startups-work) | IDEA | foundations |
+| [`mod-002-the-dependency-graph`](lessons/mod-002-the-dependency-graph) | IDEA | foundations |
+| [`mod-003-stages-and-what-matters-when`](lessons/mod-003-stages-and-what-matters-when) | IDEA | foundations |
+| [`mod-004-founder-operating-basics`](lessons/mod-004-founder-operating-basics) | PRE-SEED | foundations |
+| [`mod-005-reading-the-numbers`](lessons/mod-005-reading-the-numbers) | PRE-SEED | economics |
+
 ## Where to Start
 
 1. Read this file and the two taxonomy docs (stages + functional graph).
