@@ -266,9 +266,52 @@ present) — containing at minimum:
   mod-004 interlock note (Part E), and the cadence commitment
   (Part F).
 
-If mod-004 exercise 05 was completed, also update the mod-004
-metrics one-pager per Part E; the updated file lives in the
-same folder.
+The one-pager file (`founder-numbers-one-pager.md`) is the
+code-block shape from chapter 07's "An example one-pager" section
+— six headline rows in the three-value grammar, six sub-lines,
+the unit-economics deferral footer, nothing else.
+
+The exercise write-up (`mod-005-exercise-07-one-pager.md`) is
+structured:
+
+```markdown
+# Founder-Numbers One-Pager — [Startup Name]
+
+## Provenance audit
+| Pre-req exercise | Contributed value or artifact | Date refreshed |
+|---|---|---|
+| Exercise 01 — Runway model | <cash, net burn, runway months, end date> | YYYY-MM-DD |
+| Exercise 02 — Burn drill | <gross, net, net-after-variable-revenue> | YYYY-MM-DD |
+| Exercise 03 — Growth rate | <rate + cadence + underlying quantity> | YYYY-MM-DD |
+| Exercise 04 — Default alive/dead | <verdict + one-sentence reason> | YYYY-MM-DD |
+| Exercise 06 — North-Star | <name, current, prior, target, definition> | YYYY-MM-DD |
+
+## Read-test note
+<three-to-five sentences — Part C: who read it (or self-tested),
+which of the six questions took the longest, what row you fixed
+as a result>
+
+## Six-failure-mode check table
+| # | Line | Verdict | Fix (if any) |
+|---|---|---|---|
+| 1 | Cash on hand | Pass / Fix-required / Fixed | <one line> |
+| 2 | Net burn | ... | ... |
+| 3 | Growth rate | ... | ... |
+| 4 | Runway | ... | ... |
+| 5 | Default alive/dead | ... | ... |
+| 6 | North-Star | ... | ... |
+
+## Mod-004 interlock note
+<two-to-three sentences — Part E: what changed about the mod-004
+metrics one-pager once the founder-numbers section became real,
+or, if mod-004 was not completed, a note to that effect>
+
+## Cadence commitment
+<four-to-six sentences — Part F: Monday / Wednesday / Friday /
+last-business-day touches with specific day and time, the source
+of truth for each line, and one named weekly-touch failure mode
+plus the defence>
+```
 
 Total length: 800–1300 words across the exercise write-up. The
 one-pager itself stays under one page (roughly 200–350 words
@@ -284,7 +327,7 @@ including all six sub-lines and the deferral footer).
 - **Use the runway model as the source of truth for cash and
   runway.** The one-pager is the *summary*; the model is the
   source. When they drift (they always do), snap the one-pager
-  back to the model on the monthly reconciliation. Do not the
+  back to the model on the monthly reconciliation — not the
   other way around.
 - **Do the outside-reader read test if at all possible.** The
   self-read test is a fallback. Ninety seconds is a tighter
