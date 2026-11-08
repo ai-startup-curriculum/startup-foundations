@@ -2,7 +2,7 @@
 
 AI Startup Curriculum · Level 10 · [learning](https://github.com/ai-startup-curriculum/startup-foundations)
 
-_Generated 2026-11-03 by `aicg org completeness`._
+_Generated 2026-11-08 by `aicg org completeness`._
 
 **Overall: 100%**
 
@@ -18,7 +18,7 @@ _Generated 2026-11-03 by `aicg org completeness`._
 | `mod-002-the-dependency-graph` | ✅ Complete | 23,096 | 7 | 6 | — |
 | `mod-003-stages-and-what-matters-when` | ✅ Complete | 25,248 | 7 | 5 | — |
 | `mod-004-founder-operating-basics` | ✅ Complete | 31,390 | 7 | 6 | — |
-| `mod-005-reading-the-numbers` | ✅ Complete | 35,461 | 8 | 7 | — |
+| `mod-005-reading-the-numbers` | ✅ Complete | 35,751 | 8 | 7 | — |
 
 ## How this is calculated
 
