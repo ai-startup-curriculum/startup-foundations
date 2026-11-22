@@ -3,7 +3,8 @@ module: mod-005-reading-the-numbers
 exercise: exercise-07
 slug: founder-numbers-one-pager-authoring
 hours: 3
-prereqs: [chapter-07-founder-numbers-one-pager, exercise-01-build-a-runway-model-from-zero, exercise-04-default-alive-or-default-dead-scenarios, exercise-06-north-star-metric-selection-and-defence]
+prereqs: [chapter-07-founder-numbers-one-pager]
+requires: [exercise-01-build-a-runway-model-from-zero, exercise-02-gross-vs-net-burn-drill, exercise-03-growth-rate-wow-and-mom-calculation, exercise-04-default-alive-or-default-dead-scenarios, exercise-06-north-star-metric-selection-and-defence]
 ---
 
 # Exercise 07 — Founder-Numbers One-Pager Authoring
